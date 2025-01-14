@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 10px;
+    margin: 0;
+    border: border-box;
+    text-decoration: none;
+}
+
+:root{
+    --main-color: #004B8E;
+    --text-second-color: #666666;
+    --text-color: black;
+    
+    
+}
+
+
+.Talkzone{
+    padding: 50px;
+    font-size: 4rem;
+    font-family:sans-serif;
+    color: var(--main-color);
+    
+}
+
+
+.spart{
+    display: flex;
+    
+    
+}
+
+.logoimg{
+    margin:auto;
+    background-image: url(/Images/Login.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 500px;
+    
+}
+
+
+
+.details{
+   margin-right: auto;
+    
+}
+.welcome{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.enter{
+    font-size: 1rem;
+    font-family: sans-serif;
+    color: var(--text-second-color);
+    margin-top: 10px;
+}
+
+.Name{
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+
+.input-name input{
+    margin-top: 10px;
+    width: 400px;
+    padding: 10px;
+    border: 2px solid var(--main-color); 
+    border-radius: 10px; 
+    font-size: 16px; 
+    color: #666666; 
+    
+}
+.pword{
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+
+.input-pw input{
+    margin-top: 5px;
+    width: 400px;
+    padding: 10px;
+    border: 2px solid var(--main-color); 
+    border-radius: 10px; 
+    font-size: 16px; 
+    color: #666666; 
+    
+}
+
+.login a{
+    color: white;
+    padding: 25px;
+}
+
+.login{
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    width: 100px;
+    height: 25px;
+    background-color: var(--main-color);
+    border-radius: 33px;
+}
+
+.acc-creation{
+    display: flex;
+}
+
+.dont-acc a{
+    color: var(--main-color);
+}
+
+.dont-acc{
+    margin-top: 5px;
+    font-family: sans-serif;
+}
+
+.forget{
+    margin-top: 5px;
+    margin-left: auto;
+}
+
+
+.forget a{
+    
+    color: var(--main-color);
+    font-family: sans-serif;
+}
+
+@media (max-width: 440px){
+    .input-pw input,
+    .input-name input{
+        width: 350px;
+    }
+    
+}
+@media (max-width: 390px){
+    .input-pw input,
+    .input-name input{
+        width: 330px;
+    }
+    
+}
+@media (max-width: 365px){
+    .input-pw input,
+    .input-name input{
+        width: 300px;
+    }
+    
+}
+
+
+@media (max-width: 1000px){
+    .logoimg{
+        height: 300px;
+        width: 300px;
+    }
+}
+@media (max-width: 750px){
+    .logoimg{
+        height: 200px;
+        width: 200px;
+    }
+}
+@media (max-width: 640px){
+    .logoimg{
+        display: none;
+    }
+    .details{
+        margin: auto;
+    }
+}
