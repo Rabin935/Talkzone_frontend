@@ -16,14 +16,45 @@
     
 }
 
+.top{
+    display: flex;
+
+}
 
 .Talkzone{
-    padding: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
     font-size: 4rem;
     font-family:sans-serif;
     color: var(--main-color);
     
 }
+
+.sign-in{
+    font-size: 1rem;
+    font-family: sans-serif;
+    color: var(--text-second-color);
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: 20rem;
+    font-family: sans-serif;
+}
+
+.sign-in a{
+    color: #004B8E;
+    border: 3px solid var(--main-color);
+    border-radius: 33px;
+    padding: 10px;
+    width: 100px;
+    font-family: sans-serif;
+    transition: 0.2s;
+}
+
+.sign-in a:hover{
+    color: white;
+    background-color: #004B8E;
+}
+
 
 
 .spart{
@@ -54,7 +85,7 @@
     font-weight: bold;
 }
 
-.enter{
+.register-acc{
     font-size: 1rem;
     font-family: sans-serif;
     color: var(--text-second-color);
@@ -67,6 +98,24 @@
 }
 
 .input-name input{
+    /* margin-top: 0px; */
+    width: 400px;
+    padding: 10px;
+    border: 2px solid var(--main-color); 
+    border-radius: 10px; 
+    font-size: 16px; 
+    color: #666666; 
+    
+
+}
+
+
+.email{
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+
+.input-email input{
     /* margin-top: 0px; */
     width: 400px;
     padding: 10px;
@@ -92,12 +141,12 @@
     
 }
 
-.login a{
+.login-btn a{
     color: white;
     padding: 25px;
 }
 
-.login{
+.login-btn{
     margin-top: 15px;
     padding: 10px;
     font-size: 20px;
@@ -108,30 +157,7 @@
     border-radius: 33px;
 }
 
-.acc-creation{
-    display: flex;
-}
 
-.dont-acc a{
-    color: var(--main-color);
-}
-
-.dont-acc{
-    margin-top: 5px;
-    font-family: sans-serif;
-}
-
-.forget{
-    margin-top: 5px;
-    margin-left: auto;
-}
-
-
-.forget a{
-    
-    color: var(--main-color);
-    font-family: sans-serif;
-}
 
 /* Responsivie code */
 
